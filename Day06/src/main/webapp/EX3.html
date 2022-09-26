@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>당신의 이름을 입력하세요.</h2>
+
+	<input type="text" id="name">
+	<br>
+	<input type="button" value="당신의 이름은" onclick="javascript:printName()">
+
+	<script>
+		function printName() {
+			var name = document.getElementById('name').value;
+			alert(name + "님 환영합니다.");
+		}
+	</script>
+</body>
+</html>

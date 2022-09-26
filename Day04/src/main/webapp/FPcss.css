@@ -1,0 +1,46 @@
+@charset "EUC-KR";
+
+#self{
+	line-height:200px;
+	font-weight:bold;
+	font-size:60px;
+	background-color: blue;
+	text-align:center;
+}
+#info{
+	list-style:none;
+/* 	padding-left:50px;
+ */	background-color: #D16D6A;
+
+}
+li{
+	padding-left: 50px;
+}
+
+#introduce{
+
+	background-color: #EEEEEE;
+	color:black;
+	
+}
+
+ .box{
+	
+ 	font-size:40px;
+	height:200px;
+	width: 100%;
+	color:white;
+	text-align:left;
+} 
+
+button{
+	height: 50px;
+	width:	100px;
+	color:black;
+	background-color: orange;
+ 	float:right;
+ 	position: relative;/* 우측에 고정후 하단 배치를 하고 싶었으나, 하단 배치를 어떻게 해야 할지 모르겠습니다. */
+ 	top:150px;
+ 	
+ 
+ }

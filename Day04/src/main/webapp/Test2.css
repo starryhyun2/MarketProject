@@ -1,0 +1,15 @@
+@charset "EUC-KR";
+
+p{
+	color:blue;
+}
+
+.h{
+	text-align:center;
+	color:green;
+}
+div {
+	height:100%;
+	width:100%;
+	background-color: yellow
+}

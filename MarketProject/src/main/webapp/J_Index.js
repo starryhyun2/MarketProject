@@ -1,14 +1,14 @@
 /**
  * 
  */
-var cnt =1;
-
+var chk = true;
+ 
 function darkMode() {
 	var idTitle = document.getElementById('idTitle');
 	var _txIndex = document.getElementsByClassName('_txIndex');
+	
 
-
-		if (idTitle.style.color == 'black') {
+		if (chk == true) {
 				
 				document.body.style.backgroundColor = 'black';
 				_btnTheme.value='Day mode';
@@ -16,13 +16,15 @@ function darkMode() {
 					_txIndex[i].style.color = 'white';
 				}
 				
-		} else {
+				chk = false;
+		} else if(chk == false){
 				
 				document.body.style.backgroundColor = 'white';
 				_btnTheme.value='Dark mode';
 				for (var i =  0; i<_txIndex.length;i++){
 					_txIndex[i].style.color = 'black';
 				}
+				chk = true;
 				
 		}
 		
